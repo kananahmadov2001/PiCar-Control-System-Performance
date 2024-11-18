@@ -28,7 +28,7 @@ The PiCar is a robotic platform powered by a Raspberry Pi, which serves as its p
 
 ## Functionality and Results
 * Control
-*     Designed and implemented a PID control system to regulate the motor speed in a no-load environment:
+* * Designed and implemented a PID control system to regulate the motor speed in a no-load environment:
 
 Achieved steady velocity at 5 RPS with a steady-state error of 0.071 and an overshoot of -24.8%.
 Analyzed the system's performance using velocity-time plots and FFT for steady-state verification.
