@@ -11,7 +11,8 @@ Note: This was my final project for my Engineering Design class I took at WashU 
 The PiCar is a robotic platform powered by a Raspberry Pi, which serves as its primary control unit. This project integrates multiple sensors and actuators to achieve precise control and autonomous movement. The system employs PID control to meet the objectives of Control, Movement, and Movement with Control, ensuring optimal performance in speed, direction, and distance tracking.
 
 <div align="center">
-    <img src="PiCar-figure-1.png" alt="screenshot">
+    <img src="PiCar-figure-1.png" alt="screenshot" width="400px" height="300px">
+    <img src="PiCar-figure-2.png" alt="screenshot" width="400px" height="300px">
 </div>
 
 ## Key features include:
