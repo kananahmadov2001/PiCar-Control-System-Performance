@@ -32,7 +32,7 @@ The PiCar is a robotic platform powered by a Raspberry Pi, which serves as its p
   * Achieved steady velocity at 5 RPS with a steady-state error of 0.071 and an overshoot of -24.8%.
   * Analyzed the system's performance using velocity-time plots and FFT for steady-state verification.
  
-* Objective 2: Movement
+* Movement
   * Developed a program to drive the PiCar toward a blue object positioned at least 10 feet away.
   * Used an ultrasonic sensor for distance tracking and speed adjustment.
   * Implemented a camera-angle-tracking algorithm for precise steering via servos.
