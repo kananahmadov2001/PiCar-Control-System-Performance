@@ -2,36 +2,29 @@
     <h1 id="Header">PiCar-Control-System-Performance</h1>
 </div>
 
+## Overview
+
 ```
-PiCar-Control-System-Performance was the final project for my Engineering Design class.
+Note: PiCar-Control-System-Performance was the final project for my Engineering Design class.
 ```
 
 The PiCar is a robotic platform powered by a Raspberry Pi, which serves as its primary control unit. This project integrates multiple sensors and actuators to achieve precise control and autonomous movement. The system employs PID control to meet the objectives of Control, Movement, and Movement with Control, ensuring optimal performance in speed, direction, and distance tracking.
 
-Key features include:
+## Key features include:
+* A Raspberry Pi-based control system
+* Ultrasonic sensor for obstacle detection (the "eyes")
+* Camera for object recognition and tracking (the "mouth")
+* DC motor for rear-wheel drive
+* Three servomotors for steering, head movement, and tilt
+* Analog-to-Digital Converter (ADC) for data acquisition
+* Advanced power management via a PWM HAT
 
-A Raspberry Pi-based control system
-Ultrasonic sensor for obstacle detection (the "eyes")
-Camera for object recognition and tracking (the "mouth")
-DC motor for rear-wheel drive
-Three servomotors for steering, head movement, and tilt
-Analog-to-Digital Converter (ADC) for data acquisition
-Advanced power management via a PWM HAT
-
-<p align="center" width="100%"> <img width="50%" src="https://github.com/kananahmadov2001/PiCar-System-Control-Performance/assets/135070652/28984a60-a50c-4976-ba48-2b17961fa3f6"> </p>
-
-<p align="center" width="100%">
-    <img width="50%" src="https://github.com/kananahmadov2001/PiCar-System-Control-Performance/assets/135070652/28984a60-a50c-4976-ba48-2b17961fa3f6"> 
-</p>
-
-Other than the sensors, the PiCar’s Power component is also essential. The Power LEDs and switch is located on the PWM HAT, which sits on top of the Raspberry Pi. The up/down switch controlls the power from the batteries located under the PiCar, and the four LEDs indicates how much power was left in the batteries.
-
-<p align="center" width="100%">
-    <img width="50%" src="https://github.com/kananahmadov2001/PiCar-System-Control-Performance/assets/135070652/fec7c5b2-c88e-4d00-b544-056300e7df36"> 
-</p>
-
-Through the implementation of knowledge and methods learned from our ESE 205: Engineering Design class and the idea of PID control, we were able to successfully complete our "PiCar System Performance and Control" project, which had three objectives: Control, Movement, and Movement with Control. 
-
+## Technologies/Tools Used
+* Hardware: Raspberry Pi, Ultrasonic Sensor, Camera, DC Motor, Servomotors, ADC, PWM HAT
+* Software: Python, PID Control Algorithm
+* Development Tools: Raspberry Pi GPIO, FFT Analysis Tools
+* Sensors: Ultrasonic sensor, Photoresistor, LEDs
+* Power Management: Battery system with LED indicators and PWM HAT integration
 
 <div align="center">
     <h2 id="Header">Objective 1: Control</h2>
