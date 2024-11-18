@@ -15,7 +15,7 @@ The PiCar is a robotic platform powered by a Raspberry Pi, which serves as its p
     <img src="PiCar-figure-2.png" alt="screenshot" width="400px" height="300px">
 </div>
 
-## Key features include:
+## Key features Include
 * A Raspberry Pi-based control system
 * Ultrasonic sensor for obstacle detection (the "eyes")
 * Camera for object recognition and tracking (the "mouth")
