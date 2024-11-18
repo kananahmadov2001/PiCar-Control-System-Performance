@@ -42,7 +42,8 @@ The PiCar is a robotic platform powered by a Raspberry Pi, which serves as its p
   * Maintained a constant speed of 5 RPS while tracking and pathing to the target object.
   * Addressed dynamic system challenges, achieving a steady-state error of 0.188 and overshoot of 29.0%.
 
-* Conclusion: this project successfully demonstrated the importance of fine-tuning PID coefficients:
+* Conclusion
+  * This project successfully demonstrated the importance of fine-tuning PID coefficients:
   * Kp balances stability and responsiveness.
   * Ki addresses steady-state errors while maintaining stability.
   * Kd dampens oscillations and reduces noise.
