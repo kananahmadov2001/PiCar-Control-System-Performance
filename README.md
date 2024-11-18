@@ -2,10 +2,23 @@
     <h1 id="Header">PiCar-Control-System-Performance</h1>
 </div>
 
-PiCar is a robotic platform that uses Raspberry Pi, a small single-board computer, as its primary control unit. The PiCar we built for the Final Module included the sensors: Camera, DC Motor, Servos(s), Analog-to-Digital Converter, and Ultrasonic sensors. It has the Ultrasonic sensor for the eyes and the Camera as its mouth. The Ultrasonic Sensor also has a built in voltage divider to convert the 5 V for the Echo down to 3.3 V input to the Raspberry Pi. The DC motor is installed on the back of the PiCar; the motor has a rear-wheel drive connected to some gears underneath that drive the wheels. The Analog-to-Digital Converter (ADC) is also connected to the back end of the car next to the motor. The ADC was also connected to a photoresistor at channel 0 and an LED light that pointed at the inside of the left back wheel where the black and white disk is installed. Regarding the Servo(s), our PiCar has three servomotors on it:
-* Nod servomotor (for tilting the head up and down)
-* Swivel servomotor (for twisting the head left and right)
-* Steer servomotor (for steering the front wheels left and right)
+```
+PiCar-Control-System-Performance was the final project for my Engineering Design class.
+```
+
+The PiCar is a robotic platform powered by a Raspberry Pi, which serves as its primary control unit. This project integrates multiple sensors and actuators to achieve precise control and autonomous movement. The system employs PID control to meet the objectives of Control, Movement, and Movement with Control, ensuring optimal performance in speed, direction, and distance tracking.
+
+Key features include:
+
+A Raspberry Pi-based control system
+Ultrasonic sensor for obstacle detection (the "eyes")
+Camera for object recognition and tracking (the "mouth")
+DC motor for rear-wheel drive
+Three servomotors for steering, head movement, and tilt
+Analog-to-Digital Converter (ADC) for data acquisition
+Advanced power management via a PWM HAT
+
+<p align="center" width="100%"> <img width="50%" src="https://github.com/kananahmadov2001/PiCar-System-Control-Performance/assets/135070652/28984a60-a50c-4976-ba48-2b17961fa3f6"> </p>
 
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/kananahmadov2001/PiCar-System-Control-Performance/assets/135070652/28984a60-a50c-4976-ba48-2b17961fa3f6"> 
