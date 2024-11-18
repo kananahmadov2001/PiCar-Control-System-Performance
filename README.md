@@ -12,7 +12,7 @@ The PiCar is a robotic platform powered by a Raspberry Pi, which serves as its p
 
 <div align="center">
     <img src="PiCar-figure-1.png" alt="screenshot" width="450px" height="300px">
-    <img src="PiCar-figure-2.png" alt="screenshot" width="450px" height="300px">
+    <img src="PiCar-figure-2.png" alt="screenshot" width="400px" height="300px">
 </div>
 
 ## Key features include:
