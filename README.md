@@ -53,4 +53,7 @@ The PiCar is a robotic platform powered by a Raspberry Pi, which serves as its p
   * Ki addresses steady-state errors while maintaining stability.
   * Kd dampens oscillations and reduces noise.
 
-If you would like to know more about our "PiCar-System-Control-Performance" project, checkout Final_Report_ESE205.pdf
+If you would like to know more about our "PiCar-System-Control-Performance" project, checkout:
+```
+Final_Report_ESE205.pdf
+```
